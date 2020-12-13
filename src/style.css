@@ -222,10 +222,16 @@ table {
   margin-bottom: var(--spacing-8);
   border-collapse: collapse;
   border-spacing: 0.25rem;
+  border-bottom: 2px solid var(--color-accent);
+}
+
+td {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--color-accent);
 }
 
 table thead tr th {
-  border-bottom: 1px solid var(--color-accent);
+  border-bottom: 2px solid var(--color-accent);
 }
 
 /* Link */

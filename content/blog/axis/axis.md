@@ -1,12 +1,12 @@
 ---
-title: Axis interfaceをSDK上で使う
+title: Axis interfaceをSDK上で使用する
 date: "2020-06-02"
 description: "Vivado HLSで引数をaxis interfaceで合成したIPに，SDKから入力する方法"
 ---
 
 Vivado HLSのinterfaceには様々な物が有るが，その中の引数をaxis interfaceで合成したIPを作成後，それをSDK上で扱う方法が検索しても中々出てこなかったのでメモしておく．
 
-サンプルとして次のようなIPを用意した．
+サンプルとして次の様なIPを用意した．
 
 ```C
 int axis_test(int inp[4], int outp[4]) {
@@ -60,7 +60,7 @@ int main() {
 
 
 
-ポイントは`XLlFifo_Write`と`XLlFifo_TxSetLen`の順序．[xllfifo.h](https://github.com/Xilinx/embeddedsw/blob/master/XilinxProcessorIPLib/drivers/llfifo/src/xllfifo.h)には次のような記述が有る．
+ポイントは`XLlFifo_Write`と`XLlFifo_TxSetLen`の順序．[xllfifo.h](https://github.com/Xilinx/embeddedsw/blob/master/XilinxProcessorIPLib/drivers/llfifo/src/xllfifo.h)には次の様な記述が有る．
 
 >XLlFifo_TxSetLen begins a hardware transfer of _Bytes_ bytes out of the transmit channel of the FIFO specified by _InstancePtr_.
 
