@@ -4,7 +4,7 @@ date: "2020-06-02"
 description: "Vivado HLSで引数をaxis interfaceで合成したIPに，SDKから入力する方法"
 ---
 
-Vivado HLSのinterfaceには様々な物が有るが，その中の引数をaxis interfaceで合成したIPを作成後，それをSDK上で扱う方法が検索しても中々出てこなかったのでメモしておく．
+Vivado HLSのinterfaceには様々な物が有るが，その中の引数をaxis interfaceで合成したIPを作成後，それをSDK上で使用する方法が検索しても中々出てこなかったのでメモしておく．
 
 サンプルとして次の様なIPを用意した．
 
