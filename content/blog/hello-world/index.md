@@ -15,6 +15,14 @@ uiamnと申します．大学院生です．
   * [東京工業大学デジタル創作同好会traP](https://trap.jp/) (元代表)
   * [東工大音ゲーサークルBEATECH](https://beatech.mydns.jp/) (元代表)
 
+## 研究に関するキーワード
+
+* FPGA
+* 充足可能性問題(SAT)
+* 自動運転
+* 高位合成
+
+
 ## work experiences
 
 * 塾講師(2017年7月~2019年3月)
@@ -33,9 +41,12 @@ uiamnと申します．大学院生です．
 * (ある程度)扱ったことのあるライブラリ・フレームワーク
   * Webフレームワーク系: Django, Flask, Tornado
   * フロントエンド系: React, jQuery, Electron
-  * その他: Tensorflow, Selenium, VivadoHLS
-* 何かしら作ったことがある
-  * PHP, Ruby, Java, Haskell
+  * DB系: SQLite3
+  * FPGA系: Vivado, VivadoHLS, XilinxSDK/VitisIDE, Zybo Z7-20
+  * その他: Tensorflow, Selenium
+* 何かしら作ったことがある / 勉強中
+  * PHP, Ruby, Java, Haskell, [Kotlin](https://github.com/uiamn/SmartHighway), [Rust](https://github.com/uiamn/tar_archiver)
+  * Verilog (論理回路設計は高位合成で行って居るため，あまり使用したことがない)
 
 ## works
 
