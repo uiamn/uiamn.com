@@ -30,7 +30,7 @@ uiamnと申します．大学院生です．
   * エンジニア(アルバイト)．
   * Webフロントエンドからバックエンド，機械学習，センサ開発等様々な業務に係らせて頂きました．
   * Python(Django, Tensorflow, ...), Selenium, jQuery, PHP, C/C++など
-* フリーランスエンジニア(2020年11月~)
+* フリーランスエンジニア(2020年11月~2021年6月)
   * Webサイト監視用のデスクトップアプリケーションの開発
   * React+Electron, Tornado, Flask, Selenium
 
@@ -38,12 +38,12 @@ uiamnと申します．大学院生です．
 
 * (ある程度)書いたことがある言語
   * Python, Javascript/Typescript, C/C++
-* (ある程度)扱ったことのあるライブラリ・フレームワーク
+* (ある程度)扱ったことのあるライブラリ・フレームワーク等
   * Webフレームワーク系: Django, Flask, Tornado
-  * フロントエンド系: React, jQuery, Electron
-  * DB系: SQLite3
-  * FPGA系: Vivado, VivadoHLS, XilinxSDK/VitisIDE, Zybo Z7-20
-  * その他: Tensorflow, Selenium
+  * フロントエンド系: React, jQuery, Electron, (HTML/CSS)
+  * DB系: SQLite3, MySQL, PostgreSql
+  * FPGA系: Vivado, VivadoHLS/VitisHLS, XilinxSDK/VitisIDE, Zybo Z7-20
+  * その他: Tensorflow, Selenium, Docker
 * 何かしら作ったことがある / 勉強中
   * PHP, Ruby, Java, Haskell, [Kotlin](https://github.com/uiamn/SmartHighway), [Rust](https://github.com/uiamn/tar_archiver)
   * Verilog (論理回路設計は高位合成で行って居るため，あまり使用したことがない)
